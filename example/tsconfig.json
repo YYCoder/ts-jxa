@@ -1,0 +1,36 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "./dist",
+        "watch": false,
+        "help": true,
+        "strict": false,
+        "strictNullChecks": true,
+        "target": "ES5",
+        "module": "CommonJS",
+        "jsx": "react",
+        "allowJs": true,
+        "traceResolution": false,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": false,
+        "noImplicitAny": false,
+        "noUnusedParameters": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "skipLibCheck": false,
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016",
+            "es2017"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

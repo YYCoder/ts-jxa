@@ -1,0 +1,28 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint-config-airbnb",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "quotemark": [true, "single", "jsx-double"],
+        "no-boolean-literal-compare": true,
+        "max-line-length": [
+            true,
+            120
+        ],
+        "trailing-comma": false,
+        "ter-indent": [
+            true,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "variable-name": false,
+        "no-increment-decrement": false,
+        "import-name": false
+    },
+    "rulesDirectory": []
+}
