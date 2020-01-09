@@ -1,5 +1,7 @@
 node_modules
 .DS_Store
 yarn.lock
-*.js
-*.js.map
+src/**/*.js
+src/**/*.js.map
+bin/**/*.js
+bin/**/*.js.map

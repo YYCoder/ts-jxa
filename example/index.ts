@@ -1,3 +1,6 @@
+/**
+ * This example shows how to use ts-jxa as a command line interface
+ */
 import '@jxa/global-type';
 import { log } from './other-module';
 import { camelCase } from 'lodash';

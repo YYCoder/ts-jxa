@@ -1,5 +1,5 @@
 # ts-jxa
-Write JXA using typescript !
+Write JXA using typescript 🚀!
 
 
 

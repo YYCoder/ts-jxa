@@ -30,7 +30,8 @@
     "typescript": "^3.7.4"
   },
   "scripts": {
-    "example": "cd ./example && ../bin/index.js --dev ./index.ts -o ..",
+    "example-cli": "cd ./example && ../bin/index.js --dev ./index.ts -o ..",
+    "example-api": "cd ./example && node ./api.js",
     "dev": "tsc -w",
     "lint": "tslint -p ./tsconfig.json"
   },
