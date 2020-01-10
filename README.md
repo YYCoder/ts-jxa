@@ -1,11 +1,13 @@
-[English](./docs/en.md) | [中文](./docs/cn.md)
 
 # ts-jxa
+[English](./docs/en.md) | [中文](./docs/cn.md)
+
 Write JXA using typescript 🚀! 
 
 Freely use ES features which typescript supports and provide nice basic development experience.
 
 > Thanks to [JXA-Cookbook](https://github.com/JXA-Cookbook/JXA-Cookbook/wiki/Importing-Scripts).
+
 
 ### What is JXA?
 It's OS X automation, using Javascript.

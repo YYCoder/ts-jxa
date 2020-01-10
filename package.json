@@ -17,7 +17,7 @@
     "darwin"
   ],
   "name": "ts-jxa",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "main": "./src/index.js",
   "devDependencies": {
     "lodash": "^4.17.15",
@@ -33,7 +33,8 @@
     "example-cli": "cd ./example && ../bin/index.js --dev ./index.ts -o ..",
     "example-api": "cd ./example && node ./api.js",
     "dev": "tsc -w",
-    "lint": "tslint -p ./tsconfig.json"
+    "lint": "tslint -p ./tsconfig.json",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
